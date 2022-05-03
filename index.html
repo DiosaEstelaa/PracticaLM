@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- "es" = ESPAÑOL -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes,initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <meta name="author" content="EstelaGM">
+    <meta name="description" content="Debes desarrollar un sitio web en el que te luzcas, demostrando lo que has aprendido: El sitio debe ser responsive.
+    Piensa en un negocio y que el dueño te pide un sitio web y realizar el encargo.
+
+    Sube tu página a GitHub.
+    Debes enviar al profesor tanto los archivos como el enlace a tu página en Internet.
+    En este ejercicio debes usar al menos Grid en una hoja de estilos, Flex Box en otra y posicionamiento clásico en otra.
+    Debes incluir un formulario en alguna de las páginas. Puede ser en una página solo para el formulario o que lo integres en alguna de las otras.
+    
+    Entrega el enlace a tu proyecto en GitHub y un comprimido con tu proyecto. Si el archivo comprimido supera los 100M, avísame.">
+
+    <title>Trabajo_Final_LM</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Raleway:wght@100&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header class="main-header">
+
+        <div class="container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo"> pixila&moxeta </h1>
+            </div>
+
+            <div class="main-header__contactInfo_column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone"> +34 777 55 22 11</span>
+                </p>
+
+                <p class="main-header__contactInfo__direccion">
+                    <span class="icon-location"> Calle DondePuedaPagarUnLocal Madrid CP:22222 </span>
+
+                </p>
+            </div>
+        </div>
+
+    </header>
+
+    <nav class="main-nav">
+        <div class="container--flex">
+
+            <input type="checkbox" class="" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"> </label>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="#inicio" class="menu__link--select">Inicio </a> </li>
+                <li class="menu__item"><a href="#nosotras"> Nosotras </a> </li>
+                <li class="menu__item"><a href="#especial-temporada1"> Galeria</a> </li>
+                <li class="menu__item"><a href="#formulario1">Contacto</a> </li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook-squared"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter-squared"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="imagenes/hummus.jpg" alt="El banner" class="banner__img">
+        <div class="banner__content"> La mejor comida vegana está aquí. Volverás, lo sabes, lo sabemos. </div>
+    </section>
+
+    <main class="main">
+        <section class="group--color">
+            <div class="container" id="inicio">
+                <h2 class="main__title"> Bienvenidxs al paraíso de la comida vegana</h2>
+                <p class="main__txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos molestiae aut
+                    cum maiores, doloribus dolorem eum aliquid odio neque. Cupiditate aliquid at porro tenetur itaque
+                    mollitia architecto beatae eveniet.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium explicabo, possimus eligendi
+                    voluptas sunt laborum, distinctio voluptate nulla alias impedit repellat at minima qui veritatis
+                    consectetur assumenda culpa deleniti iusto!
+                </p>
+            </div>
+        </section>
+
+        <section class="main__about__description" id="nosotras">
+            <div class="container--flex">
+                <div class="column--50">
+                    <img src="imagenes/aguacates.jpg" alt="foto aguacates">
+                </div>
+                <div class="column--50">
+                    <h3 class="column__title"> Lorem ipsum dolor sit amet </h3>
+                    <p class="column__txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illum eligendi
+                        quia sunt dolorem obcaecati corrupti sed labore, perspiciatis reiciendis placeat. Temporibus
+                        soluta officia architecto omnis repudiandae nihil nulla at?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eius non cum quas placeat laborum,
+                        facere necessitatibus, deserunt, rerum perspiciatis tempore? Omnis vitae, quam praesentium
+                        dolores sequi veritatis repudiandae explicabo.
+                    </p>
+                    <a href="" class="btn--contact"> Contacto</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="especial-temporada" id="especial-temporada1">
+            <h2 class="especial-temp__title"> Especiales temporada primavera</h2>
+            <div class="container--flex">
+                <div class="column--50-25">
+                    <img src="imagenes/bruschetta.jpg" alt="" class="especial-temporada__img">
+                    <div class="especial-temporada__title"> Bruschetta</div>
+                    <div class="especial-temporada__precio">7€</div>
+                </div>
+                <div class="column--50-25">
+                    <img src="imagenes/enchilada.jpg" alt="" class="especial-temporada__img">
+                    <div class="especial-temporada__title"> Enchilada </div>
+                    <div class="especial-temporada__precio">10€</div>
+                </div>
+                <div class="column--50-25">
+                    <img src="imagenes/tofu-marinado.jpg" alt="" class="especial-temporada__img">
+                    <div class="especial-temporada__title"> Tofu marinado</div>
+                    <div class="especial-temporada__precio"> 7€ </div>
+                </div>
+                <div class="column--50-25">
+                    <img src="Imagenes/tikka.jpg" alt="" class="especial-temporada__img">
+                    <div class="especial-temporada__title"> Hummus </div>
+                    <div class="especial-temporada__precio"> 6€ </div>
+                </div>
+            </div>
+
+            <div class="formulario" id="formulario1">
+                <div class="container-flex-rosa">
+
+                    <form action="non-empty" class="columna-form">
+
+                        <h2>Apúntate a nuestra newsletter </h2>
+                        <h3>sobre divulgación vegana!</h3>
+
+                        <!--Nombre-->
+
+                        <p> <br> </p>
+
+                        <h4>¿Cual es tu nombre?</h4>
+                        <label for="fname">Nombre:</label><br />
+                        <input type="text" class="name_input" id="fname" name="fname" /><br />
+                        <label for="lname">Apellido(s):</label><br />
+                        <input type="text" class="name_input" id="lname" name="lname" />
+
+                        <p> <br> </p>
+
+                        <!--Fecha de nacimiento/Cumpleaños-->
+
+                        <h4>¿Cuándo es tu cumpleaños?</h4>
+                        <label for="birthday">Fecha de nacimiento:</label>
+                        <input type="date" id="birthday" name="birthday">
+
+                        <p> <br></p>
+
+                        <!--Email-->
+
+                        <h4>¿Cual es tu correo electrónico?</h4>
+                        <label for="email">Introduce tu email:</label>
+                        <input type="email" id="email" name="email">
+
+
+                        <!--Submit button-->
+
+                        <input type="submit" class="submit_btn" value="Entregar" />
+                        <input type="reset" class="submit_btn" value="Restablecer">
+                    </form>
+
+                    <div class="columna-form">
+                        <div class="footer-widget px-lg-5 px-0" id="columna-form-derecha">
+                            <h2>Horario</h2>
+                            <ul class="lista-horario">
+                                <li class="dias-semana"><span>Lunes</span><span> Cerrado</span></li>
+                                <li class="dias-semana"><span>Martes</span><span> Cerrado</span></li>
+                                <li class="dias-semana"><span>Miércoles</span><span> 20:30-00:00</span></li>
+                                <li class="dias-semana"><span>Jueves</span><span> 13:30-16:00/20:30-00:00</span></li>
+                                <li class="dias-semana"><span>Viernes</span><span> 13:30-16:00/20:30-00:00</span></li>
+                                <li class="dias-semana"><span>Sábado</span><span> 13:30-16:00/20:30-00:00</span></li>
+                                <li class="dias-semana"><span>Domingo</span><span> 13:30-16:00/20:30-00:00</span></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container--flex">
+            <div class="column--33">
+                <h2 class="colum__title"> ¿Por qué visitarnos? </h2>
+                <p class="column__txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus
+                    tempore cumque consequatur esse sint fugit ullam nulla obcaecati! Hic quam commodi magni amet eius
+                    deserunt dolorum ducimus veritatis esse.
+                </p>
+            </div>
+
+            <div class="column--33">
+                <h2 class="colum__title"> Contáctanos </h2>
+                <p class="column__txt"> +34 777 55 22 11</p>
+                <p class="column__txt"> Calle DondePuedaPagarUnLocal Madrid CP:22222 </p>
+                <p class="column__txt"> pixila&moxeta@gmail.com </p>
+
+            </div>
+            <div class="column--33">
+                <h2 class="colum__title"> Síguenos en nuestras redes sociales </h2>
+                <p class="column__txt"> <a href="" class="icon-facebook-squared"> Facebook </a></p>
+                <p class="column__txt"> <a href="" class="icon-twitter-squared"> Twitter </a></p>
+                <p class="column__txt"> <a href="" class="icon-instagram"> Instagram </a></p>
+
+            </div>
+            <p class="copy"> 2022 pixila&moxeta | Todos los derechos reservados </p>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
